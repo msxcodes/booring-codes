@@ -14,15 +14,15 @@ import {
 
 export default function ServicesSection() {
   return (
-    <div className="py-12">
-      <div className="flex flex-col justify-center items-center gap-1 my-8">
+    <div className="md:py-12">
+      <div className="flex flex-col justify-center items-center gap-1 my-8 px-4 md:px-0">
         <h4 className="text-4xl font-bold ">Our Services</h4>
         <span className="max-w-screen-md text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
         </span>
       </div>
       <div className="py-8">
-        <div className="max-w-screen-xl mx-auto grid grid-cols-4 gap-8">
+        <div className="max-w-screen-xl mx-auto grid md:grid-cols-4 gap-8 px-4 md:px-0">
           <ServiceCard
             title="UI/UX Design"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."

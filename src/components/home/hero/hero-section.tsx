@@ -5,17 +5,18 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <div className="relative h-[70vh]">
+    <div className="relative h-[50vh] md:h-[70vh]">
       <div className="size-full flex justify-center items-center">
-        <div className="flex items-center flex-col z-50 gap-4">
-          <h2 className="text-6xl text-gray-800 font-extrabold  text-center">
+        <div className="flex items-center flex-col z-50 gap-4 px-4 md:px-0">
+          <h2 className="text-4xl text-gray-800 font-extrabold  text-center md:text-6xl">
             <span className="bg-gradient-to-tr bg-clip-text text-transparent from-blue-700 to-sky-300">
               Automate{" "}
             </span>
-            Your Workflows <br /> And Scale Delivery Your IT Problems, <br />{" "}
-            Our Expert Solutions
+            Your Workflows <br className="hidden md:block" /> And Scale Delivery
+            Your IT Problems, <br className="hidden md:block" /> Our Expert
+            Solutions
           </h2>
-          <p className="text-center text-base max-w-screen-lg font-medium opacity-60">
+          <p className="text-center text-base max-w-screen-lg font-medium opacity-60 hidden md:block">
             Transform your business processes with our cloud-based software.
             Automate workflows, improve efficiency, and reduce errors. Lorem,
             ipsum dolor sit amet consectetur adipisicing elit. Totam commodi

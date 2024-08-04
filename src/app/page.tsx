@@ -3,7 +3,7 @@ import ServicesSection from "@/components/home/services-section";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <HeroSection />
       <ServicesSection />
     </main>
