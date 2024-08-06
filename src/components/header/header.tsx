@@ -60,7 +60,7 @@ export default function Header() {
           <li className="lg:mr-12">
             <a
               className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
-              href="#"
+              href="#contact-us"
             >
               Contact
             </a>

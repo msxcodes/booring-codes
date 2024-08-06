@@ -1,6 +1,6 @@
 import React from "react";
-import { Card } from "../ui/card";
-import ServiceCard from "./services/service-card";
+import { Card } from "../../ui/card";
+import ServiceCard from "./service-card";
 import {
   Braces,
   ChartBarDecreasing,
@@ -25,42 +25,42 @@ export default function ServicesSection() {
         <div className="max-w-screen-xl mx-auto grid md:grid-cols-4 gap-8 px-4 md:px-0">
           <ServiceCard
             title="UI/UX Design"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We specialize in creating seamless and engaging digital experiences through our expertise in UI/UX design."
             icon={<ChartBarDecreasing size={32} />}
           />
           <ServiceCard
             title="Web Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="Our company specializes in delivering top-notch web development services tailored to meet your business needs."
             icon={<Braces size={32} />}
           />
           <ServiceCard
             title="App Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We specialize in creating high-performance, user-friendly mobile and web applications tailored to your business needs."
             icon={<TabletSmartphone size={32} />}
           />
           <ServiceCard
             title="Cloud Services"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We offers comprehensive cloud services designed to enhance your business efficiency and scalability."
             icon={<CloudOff size={32} />}
           />
           <ServiceCard
             title="Network Security"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We offer comprehensive network security services designed to protect your organization's data from cyber threats."
             icon={<GlobeLock size={32} />}
           />
           <ServiceCard
             title="Database Management"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We offers comprehensive database management services to ensure your data is organized and easily accessible."
             icon={<DatabaseBackup size={32} />}
           />
           <ServiceCard
             title="Cyber Security"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="We provide robust solutions including network security, data protection, threat detection, and incident response."
             icon={<ShieldCheck size={32} />}
           />
           <ServiceCard
             title="Help Desk"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad repellendus cum quaerat, vitae alias."
+            des="Our Help Desk services provide comprehensive support to ensure your IT systems run smoothly."
             icon={<ScreenShare size={32} />}
           />
         </div>
